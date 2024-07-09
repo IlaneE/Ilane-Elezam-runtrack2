@@ -4,6 +4,7 @@ $c = 0 ;
 $c2 = 21 ;
 $c3 = 26 ;
 $c4 = 51 ; 
+$c5 = 43 ;
 
 while ($c != 20) {
     $c = $c +1;
@@ -13,9 +14,16 @@ while ($c2 != 26) {
     echo $c2 . "</br>";
     $c2 = $c2 +1;
 }
-while ($c3 != 51) {
+while ($c3 != 42) {
     echo "<u>" . $c3 . "</u></br>";
     $c3 = $c3 +1;
+    if ($c3 == 42) {
+        echo "La Plateforme_ </br>";
+    }
+}
+while ($c5 != 51) {
+    echo "<u>" . $c5 . "</u></br>";
+    $c5 = $c5 +1;
 }
 while ($c4 != 101) {
     echo $c4 . "</br>";
