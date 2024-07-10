@@ -12,7 +12,7 @@
 <?php
         include('fonctions.php');
         ?>
-        <form method="POST" action="index.php">
+        <form method="POST" action="joby5.php">
             Entrez votre nombre (entre 1 et 1 000 SVP)<input type="text" name="num"/>
             <input type="submit" name="valider" value="OK"/>
         </form>
