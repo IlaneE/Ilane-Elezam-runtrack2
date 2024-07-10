@@ -1,15 +1,22 @@
 <?php
 
-$c = 1 ;
-$k = 0;
+for ($c = 1; $c != 100; $c++) {
+    if ($c %3 == 0 && $c %5 == 0){
 
-while ($c != 100) {
-    echo $c . "</br>";
-    $c = $c +1;
-    if ($k%3) {
-        echo 'Fizz';
+    
+    echo "FizzBuzz </br>";
     }
-}
+    elseif ($c %5 == 0) {
+        echo "Buzz </br>";
+    }
+    elseif ($c %3 == 0) {
+        echo "FIzz </br>" ;
+    }
+    else {
+        echo "$c </br>";
+    }
+} 
+
 
 
 ?>
