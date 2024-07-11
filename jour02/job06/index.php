@@ -5,9 +5,9 @@ header("content-type:image/png");
    $y=768;
    $img = imagecreatetruecolor($x,$y);
    $blanc = imagecolorallocate($img,255,255,255);
-   $rouge = imagecolorallocate($img,255,0,0);
+   $ros = imagecolorallocate($img,255,0,100);
    imagefill($img,0,0,$blanc);
-   imagerectangle($img,25,25,$x/2-10,$y-500,$rouge);
+   imagerectangle($img,25,25,$x/2-10,$y-500,$rose);
    
    imagepng($img);
 
