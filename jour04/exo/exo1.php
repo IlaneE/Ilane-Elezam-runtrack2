@@ -32,6 +32,6 @@ fonctionTest ("Macaroni", "404kg", "1M48", "des pâtes", "omnivore", "jaune");
 ?>
 </font>
 </br></br></br>
-    <p>http://localhost/runtrack2/jour04/exo/exo1.php</p>
+    <p class="lien">http://localhost/runtrack2/jour04/exo/exo1.php</p>
 </body>
 </html>
