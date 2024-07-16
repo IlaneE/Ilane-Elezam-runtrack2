@@ -6,16 +6,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculette</title>
-    <link rel="stylesheet" href="exo1.css">
+    <title>Formule</title>
 </head>
-<body class="Fond">
-
-<img id="bg" src="https://odysem.com/wp-content/uploads/2020/12/calcul.gif" alt="" />
-
-<div id="mid"><center>
-
+<body>
 <h1 class="titre"><strong> Calculatrice </strong></h1>
+
+
+
+<div class="calc">
 
 <form method="POST" action="#" >
 <input type="text" name="n1">
@@ -34,9 +32,6 @@ $n1=$_POST['n1'] ?? 0;
 	$n2=$_POST['n2'] ?? 0;
 		if (isset($op)){
     echo("Resultat du calcul ".$n1.$op.$n2." : ");
-    if ($n1+$n2 == 0 ){
-        echo "La tête à TOT";
-    }
     if ($op=="+") {
         echo $n1+$n2;
     } elseif ($op=="-") {
@@ -50,9 +45,8 @@ $n1=$_POST['n1'] ?? 0;
 
 ?>
 </div>
-</center>
-<p class="lien">http://localhost/runtrack2/jour03/exo/exo1.php</p>
 </body>
 </html>
 
 </br></br></br>
+http://localhost/runtrack2/jour03/exo/exo1.php
