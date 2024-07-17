@@ -9,23 +9,25 @@
     <Link rel="stylesheet" href="exo1².css">
 </head>
 <body>
-    <img id="bg" src="https://upload.wikimedia.org/wikipedia/commons/2/2d/My_little_pony_logo22.svg">
-    <h1> Les Bouteilles de Sylvie</h1>
-<font color="FFFFFF>
-    <?php 
+    <img id="bg" src="https://images.genius.com/1e5840878880f47aac2d4e3d6e522b18.1000x431x1.jpg">
+    <font color="FFFFFF"><h1> Les Binouzes de Sylvie</h1>
 
-function fonctionTest ($qtotal, $qalcool) {
-        echo
+    <?php 
+//q = quantité//
+function binouze ($qtotal, $qalcool) {
+        echo "Dans la Binoouze de Sylvie il y'a " . $qtotal . " pour " . $qalcool . " d'alcool.";
     }
+($degré / $qtotal *)
 
 $tableau = array(1000, 1, 2, 3);
 $table = count($tableau);
 
-fonctionTest ();
+
+binouze ("75cl", "6%");
 echo "</br></br>";
-fonctionTest ();
+binouze ("33cl", "4%");
 echo "</br></br>";
-fonctionTest ();
+binouze ("25cl", "3%");
 
 
 

@@ -17,13 +17,13 @@
 
 <form method="POST" action="#" >
 <input type="text" name="n1">
+<input type="text" name="n2">
 <select name="op" >                       
-        <option value="+">+</option>
-        <option value="-">-</option>
+        <option value="Masse">+</option>
+        <option value="">-</option>
         <option value="*">*</option>
          <option value="/">/</option>
         </select> 
-<input type="text" name="n2">
 <input type="submit" name="b1" value="Calculer">
 </br></br></br>
 <?php 
