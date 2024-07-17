@@ -1,14 +1,14 @@
 <?php
 
-function degré ($nombre, $total, $pourcent){
-    $resultat = ($nombre / $total) * $pourcent;
+function degré ($nombre, $qtotal, $qalcool){
+    $resultat = ($nombre / $qtotal) * $qalcool;
     return round ($resultat); 
 }
 
-$nombre = 65;
-$total = 384;
-$pourcent = 100;
-echo degré($nombre,$total,$pourcent)." %";
+$nombre = 33;
+$qtotal = 750;
+$qalcool = 100;
+echo degré($nombre,$qtotal,$qalcool)." %";
 
 ?>
 <!DOCTYPE html>
@@ -19,6 +19,7 @@ echo degré($nombre,$total,$pourcent)." %";
     <title>Document</title>
 </head>
 <body>
-    
+</br></br></br>
+<p class="lien">http://localhost/runtrack2/jour04/exo/test1.php</p>
 </body>
 </html>
