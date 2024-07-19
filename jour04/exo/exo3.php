@@ -23,9 +23,9 @@ function gat($part, $gat) {
 <body>
 <img id="bg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPJ_a858PSFTxU3ONGHYUN6XLs7y1joPSijYcX43rogGaly44-">
 <font color="FFFFFF"><h1> Les gâteau de 2partDIEU</h1>
-    <p>Je coupe  <?=$gat1 . "part" ?> de gâteau </p></br></br>
-    <p>Je coupe  <?=$gat2 . "part" ?> de gâteau </p></br></br>
-    <p>Je coupe  <?=$gat3 . "part" ?> de gâteau </p></br></br>
+    <p>Je coupe  <?=$gat1 . "part" ?> de gâteau. </p></br></br>
+    <p>Je coupe  <?=$gat2 . "part" ?> de gâteau. </p></br></br>
+    <p>Je coupe  <?=$gat3 . "part" ?> de gâteau. </p></br></br>
 
 
 </br></br></br>

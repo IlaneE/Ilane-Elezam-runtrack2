@@ -10,14 +10,14 @@ $tableau = array(1000, 1, 2, 3);
 $table = count($tableau);
 
 
-$poney1 = pony ("Ponytaxe", "328kg", "1M06", "des flame de couleur rouge", "omnivore", "rougeâtre");
-echo $poney1;
+$pony1 = pony ("Ponytaxe", "328kg", "1M06", "des flame de couleur rouge", "omnivore", "rougeâtre.");
+echo $pony1;
 
 echo "</br></br>";
 
-echo pony ("Macarena", "367kg", "1M29", "des notes de musique multicolore", "herbivore", "multicolore");
+echo pony ("Macarena", "367kg", "1M29", "des notes de musique multicolore", "herbivore", "multicolore.");
 echo "</br></br>";
-echo pony ("Macaroni", "404kg", "1M48", "des pâtes", "omnivore", "jaune");
+echo pony ("Macaroni", "404kg", "1M48", "des pâtes", "omnivore", "jaune.");
 
 
 ?>
